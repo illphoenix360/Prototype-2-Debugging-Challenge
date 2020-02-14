@@ -654,8 +654,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   axisName: Horizontal
-  speed: 10
-  xBound: 16
+  speed: 17
+  xBound: 20
   projectilePrefab: {fileID: 1898536739738905282, guid: b8b19a45476d54750b0c9c36b08ab993,
     type: 3}
   horizontalInput: 0
@@ -730,6 +730,11 @@ PrefabInstance:
         type: 3}
       propertyPath: speed
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1881442026644549913, guid: 20fb12b5ab65148a883ad8fcf81ec176,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20fb12b5ab65148a883ad8fcf81ec176, type: 3}
